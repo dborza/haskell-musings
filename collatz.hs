@@ -24,7 +24,7 @@ min' x y = if (x <= y) then x
 -- determine the minimum from a list
 min_list :: (Integral a) => [a] -> a
 min_list [x] = x
-min_list (x:hx) = min' x 2
+min_list (x:hx) = min' x (min_list hx)
 	
 -- another definition of the elem function. Checks if a given element is part of a list
 elem' e list = foldl (\acc x -> acc || x == e) False list
@@ -32,4 +32,4 @@ elem' e list = foldl (\acc x -> acc || x == e) False list
 -- implement the map function using a fold	
 map' f list = foldl (\acc x -> acc ++ [f(x)]) [] list
 
-main = print (map' (+1) [1,2,3])
+main = print (min_list [-1, -10, 100, -20, 1,2,3])
