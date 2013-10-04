@@ -1,3 +1,14 @@
+module RandomTest
+(	quicksort
+,	collatz
+,	collatz_chain
+,	collatz_chain_sum
+,	min'
+,	min_list
+,	elem'
+,	map'
+)	where
+
 -- ye olde quicksorte
 quicksort :: (Integral a) => [a] -> [a]    
 quicksort [] = []    
@@ -31,5 +42,3 @@ elem' e list = foldl (\acc x -> acc || x == e) False list
 
 -- implement the map function using a fold	
 map' f list = foldl (\acc x -> acc ++ [f(x)]) [] list
-
-main = print (min_list [-1, -10, 100, -20, 1,2,3])
