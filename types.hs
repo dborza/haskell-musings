@@ -80,4 +80,7 @@ treeElem x (TreeNode a leftTree rightTree)
 	
 --	typeclasses - they're (almost) like interfaces
 -- when we say that a type is an instance of a typeclass, we mean that we can use the functions that the typeclass defines with that type	
-main = print $ treeElem 10 $ foldr treeInsert EmptyTree [1,2,3,4,5,6,7,8]
+
+-- main = print $ treeElem 10 $ foldr treeInsert EmptyTree [1,2,3,4,5,6,7,8]
+
+main = putStrLn "hello, world"
