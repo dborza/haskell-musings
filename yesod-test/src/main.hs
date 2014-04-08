@@ -29,7 +29,7 @@ getPage1R = defaultLayout [whamlet|<a href=@{Page2R}>Go to page 2!|]
 getPage2R = defaultLayout [whamlet|<a href=@{HomeR}>Go home!|]
 getHamletR = defaultLayout [whamlet|
         $forall person <- people
-             <p>Hello, my name is #{name person} and I am #{show $ age person}.
+             <p>Hello, my name is #{name person} and I am #{age person}.
              <p>
                  Let's do some funny stuff with my name: #
                  <b>#{sort $ map toLower (name person)}

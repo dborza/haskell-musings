@@ -66,8 +66,8 @@
       <file leaf-file-name="main.hs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.hs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9398798" vertical-offset="236" max-vertical-offset="855">
-              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.18837675" vertical-offset="356" max-vertical-offset="855">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -449,12 +449,12 @@
       <workItem from="1396902140716" duration="887000" />
       <workItem from="1396940565512" duration="32000" />
       <workItem from="1396958529989" duration="880000" />
-      <workItem from="1396964657671" duration="647000" />
+      <workItem from="1396964657671" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2446000" />
+    <option name="totallyTimeSpent" value="3290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="960" height="1054" extended-state="6" />
@@ -539,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.hs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9398798" vertical-offset="236" max-vertical-offset="855">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.18837675" vertical-offset="356" max-vertical-offset="855">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
